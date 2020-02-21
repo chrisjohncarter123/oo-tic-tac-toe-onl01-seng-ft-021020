@@ -164,6 +164,9 @@ class TicTacToe
     
     while (over? == false)
       turn
+      if(won? == true)
+        break
+      end
     end
     
     if(draw?)
