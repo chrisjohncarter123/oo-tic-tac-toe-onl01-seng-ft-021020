@@ -94,7 +94,7 @@ class TicTacToe
     
     input = gets
     index = input_to_index(input)
-    while (valid_move?(index)) do
+    while (valid_move?(index) == false) do
       input = gets
       index = input_to_index(input)
     end
