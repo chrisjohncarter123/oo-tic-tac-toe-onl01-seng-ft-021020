@@ -92,17 +92,15 @@ class TicTacToe
   
   def turn
     
-    
     input = gets
     index = input_to_index(input)
-    if(valid_move?(index))
-      move(index, current_player)
-      display_board
-      
-    else
-      
-      turn
+    while (valid_move?(index)) do
+      input = gets
+      index = input_to_index(input)
     end
+    
+    move(index, current_player)
+    display_board
     
   end
   
