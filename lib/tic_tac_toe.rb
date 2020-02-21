@@ -162,9 +162,9 @@ class TicTacToe
     puts "Welcome to Tic! Tac! Toe!"
     display_board
     
-    loop do
+    while (over? == true
       turn
-      break if (over? == true)
+      break if ()
     end
     
     if(draw?)
