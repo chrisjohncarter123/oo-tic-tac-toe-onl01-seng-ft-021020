@@ -162,9 +162,8 @@ class TicTacToe
     puts "Welcome to Tic! Tac! Toe!"
     display_board
     
-    while (over? == true
+    while (over? == false)
       turn
-      break if ()
     end
     
     if(draw?)
