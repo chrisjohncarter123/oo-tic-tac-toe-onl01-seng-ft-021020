@@ -167,6 +167,9 @@ class TicTacToe
       if(won? == true)
         break
       end
+      if(draw? == true)
+        break
+      end
     end
     
     if(draw?)
